@@ -1,0 +1,490 @@
+@media(max-width:786px) {
+
+
+    /* header section */
+
+
+
+    .fixed_side_btn {
+        position: fixed;
+        width: 100%;
+        height: 35px;
+        background: #ea2932;
+        bottom: 5px;
+        top: unset;
+        left: 0;
+        transform: none;
+        padding-top: 10px;
+        z-index: 25;
+    }
+
+    .btn_stylish5:hover::before {
+        height: 180%;
+    }
+
+    .fixed_bottom_btn {
+        display: none;
+    }
+
+
+    .header {
+        height: 50px;
+        padding: 10px;
+        top: 0 !important;
+    }
+
+    .strip {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info p {
+        font-size: 13px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .strip_icons {
+        display: none;
+    }
+
+    .menu_div {
+        display: none;
+    }
+
+    .logo_div {
+        width: 40%;
+        height: 54%;
+        margin-left: 5%;
+    }
+
+    .sidemenu {
+        display: block;
+        width: 30px;
+        height: 40px;
+        float: right;
+        margin-right: 5%;
+        padding: 10px;
+        position: relative;
+    }
+
+    .sidemenu span {
+        width: 100%;
+        background: rgb(27, 27, 27);
+        height: 3px;
+        float: left;
+        margin: 2px;
+    }
+
+    .sidemenu_section {
+        position: fixed;
+        z-index: 105;
+        width: 100%;
+        height: 110vh;
+        top: -110vh;
+        background: #4267b2;
+        display: block;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        transition: .8s;
+        /*  pointer-events: none;
+    transition: 0.5s; */
+    }
+
+    .sidemenu_section_active {
+        top: 0;
+        transition: .8s;
+    }
+
+    .close_menu {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transition: .8s;
+    }
+
+    .close_menu .span1 {
+        width: 100%;
+        background: white;
+        height: 4px;
+        float: left;
+        margin-top: 18px;
+        transform: rotate(45deg);
+    }
+
+    .close_menu .span2 {
+        width: 100%;
+        background: white;
+        height: 4px;
+        float: left;
+        margin-top: -5px;
+        transform: rotate(-45deg);
+    }
+
+    .side_menu_links {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 25%;
+
+    }
+
+    .side_menu_links ul {
+        list-style-type: none;
+    }
+
+    .side_menu_links ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 20px 20px;
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    /* input:checked ~ .sidemenu_section
+	{
+		display: block;
+		transition-delay: 0.5s;
+	}
+
+
+input,
+	.toggle
+	{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		bottom: 10px;
+		right: 0px;
+		outline: none;
+		z-index: 10; 
+	}
+	input
+	{
+		opacity: 0;
+	}
+	.toggle
+	{
+		pointer-events: none;
+		border-radius: 50%;
+		background-color: #fff;
+		transition: 0.5s;
+		text-align: center;
+		line-height: 50px;
+		font-size: 36px;
+		box-shadow: 0 0 0 0px #eee;
+	}
+	input:checked ~ .toggle
+	{
+		box-shadow: 0 0 0 1000px #eee;
+		transform: rotate(250deg);
+	} */
+
+
+    /* banner section */
+
+    .banner_section {
+        margin-top: 70px;
+        height: 90vh;
+    }
+
+    .banner_slider {
+        margin-top: 40px;
+        height: 65vh;
+    }
+
+    .banner_slider h1 {
+        font-size: 2rem;
+    }
+
+    .banner_slider p {
+        font-size: 1.3rem
+    }
+
+    .banner_section::before {
+        width: 200px;
+        height: 260px;
+    }
+
+
+    /* about section */
+
+    .about_cloumn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about_cloumn img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_cloumn p {
+        padding-right: 0;
+    }
+
+    .about_cloumn h1 {
+        margin-top: 0;
+    }
+
+    .about_nclex h1 {
+        text-align: left;
+    }
+
+    .about_nclex p {
+        text-align: left;
+    }
+
+    .about_nclex a {
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    /* .about_video{
+        width: 100%;
+        height: 100%;
+    } */
+
+
+    /* video section */
+
+    .video_div {
+        width: 100%;
+        height: 160px;
+    }
+
+    .video_text {
+        width: 100%;
+    }
+
+    .video_text h1 {
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .video_text p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+
+
+
+    /* students section */
+
+    .people_img {
+        width: 120px;
+        height: 120px;
+    }
+
+
+
+
+
+
+    /* registraion section */
+
+    .stay_register {
+        width: 100%
+    }
+
+    .register_btn {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+    /* why divine mercy section */
+
+    .why_dvimercy_container p {
+        line-height: 23px;
+    }
+
+
+
+
+
+
+
+
+    /* call us section */
+
+    .call_us {
+        width: 100%;
+    }
+
+    .reach_us {
+        width: 100%;
+    }
+
+
+
+
+
+    /* footer section */
+
+    footer {
+        margin-bottom: 30px;
+    }
+
+    .form_footer {
+        margin-bottom: 0px !important;
+    }
+
+    .allright {
+        width: 100%;
+    }
+
+    .disingedby {
+        width: 100%;
+    }
+
+    .disingedby p {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .footer_contact p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .footer_contact {
+        width: 100%;
+    }
+
+    .desinged p {
+        float: left;
+    }
+
+
+
+    /* \\\\\\\\\\\\about page///////////// */
+
+    .about_banner {
+        margin-top: 70px;
+    }
+
+    .vision_section {
+        width: 100%;
+    }
+
+    .mision_section {
+        width: 100%;
+        padding-left: 0px;
+        border: none;
+        margin-top: 45px;
+    }
+
+
+
+
+
+    /* \\\\\\\\\\\course page//////// */
+
+    .course_banner {
+        margin-top: 70px;
+    }
+
+
+
+
+    /* \\\\\\\\admission page/////// */
+
+    .admission_banner {
+        margin-top: 70px;
+    }
+
+
+
+
+
+
+    /* \\\\\\\\\\\\contact page/////////// */
+
+    .contact_section {
+        padding-top: 0;
+    }
+
+    .address_section {
+        width: 100%;
+    }
+
+    .text_sextion {
+        width: 100%;
+    }
+
+    .form_group {
+        width: 100%;
+    }
+
+    .form_group input {
+        width: 100%;
+    }
+
+    .textarea textarea {
+        width: 97%;
+    }
+
+
+
+
+
+    /* \\\\\\\\\\\\\\\\\form page////////////// */
+
+
+    .form_header {
+        height: 65px;
+        padding: 10px;
+    }
+
+    .form_sidemenu {
+        margin-top: 2%;
+        padding: 0;
+        /* width: 45px; */
+    }
+
+    .form_logo {
+        height: 59%;
+    }
+
+
+
+    .form_container {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .read_more {
+        z-index: 80;
+    }
+
+    .occupation {
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+
+
+}
